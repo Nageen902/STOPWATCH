@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="Style.CSS">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body background="https://cdn46.picsart.com/181506385000202.png">
+    <div class="Container">
+        <h1 class="Screen">
+            <span id="min">
+                00
+            </span>:<span id="sec">
+                00
+            </span>:<span id="msec">
+                00
+            </span>
+        </h1>
+        <div class="buttons">
+            <button id="start" onclick="start()"><span><i class="fa fa-hourglass-start" aria-hidden="true"></i></span><br>start</button>
+            <button id="stop" onclick="stop()"><span><i class="fa fa-pause" aria-hidden="true"></i></span>Pause</button>
+            <button id="reset" onclick="reset()"><span><i class="fa fa-repeat" aria-hidden="true"></i></span><br>Reset</button>
+            <button id="refresh" onclick="refresh()"><span><i class="fa fa-refresh" aria-hidden="true"></i></span>Reload</button>
+    </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
